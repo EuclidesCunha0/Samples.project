@@ -6,24 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/icon.ico" type="image/x-icon">
     <title>Samples.project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Samples.project</h1>
-    <hr>
-    <h2>O que é o projeto Samples?</h2>
-    <p>A ideia do projeto é voltada à criação de uma biblioteca virtual (em forma de site) expondo samples que foram utilizados em músicas populares, incluindo dados como o ano de lançamento da música original (aquela da qual foi retirada a amostra), quem foi o produtor/artista responsável pela manipulação do sample, ano de lançamento da música que utiliza o sample, etc.</p>
-    <a href="pag003.html"rel="next"><h3>O que é um sample?</h3></a>
-    <h2>Como vai ser feito?</h2>
-    <p>O projeto (criado na disciplina de Programação Web I) será construído através de HTML5 e CSS3, utilizando ferramentas de ambas as linguagens. Também poderá incluir JavaScript e banco de dados.</p>
-    <h2>Quais são as principais referências?</h2>
-    As principais referência do projeto Samples são o
-    <ul type="circle">
-        <a href=""></a>
-        <li><a href="https://www.tracklib.com/" target="_blank">site</a>/<a href="https://www.youtube.com/channel/UCshyO4oCfROUZ6-6RccfKOg" target="_blank">canal</a> do YouTube Tracklib</li>
-        <p><img src="imagens/Tracklib_logo_300.png" alt="logo-tracklib"></p>
-        <p><i>Se você quiser saber mais sobre o serviço Tracklib, clique <a href="pag002.html" rel="next">aqui</a></i></p>
-        <li><a href="https://www.youtube.com/channel/UCerm0xrYv04HvPd_G5ZLN0w" target="_blank" >canal</a> do YouTube Mass Appeal</li>
-        <p><img src="imagens/Mass_Appeal_logo_300.png" alt="logo-massappeal"></p>
-    </ul>
+
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="pag005.html">Como vai ser feito?</a>
+            <a class="cabecalho-menu-item" href="pag006.html">Quais são as principais referências?</a>
+        </nav>
+
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Samples.project</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">A sua biblioteca virtual de samples. Descubra as músicas sampleadas por grandes artistas!</h2>
+                <a href="pag003.html"><button class="conteudo-principal-escrito-botao">O que é um sample?</button></a>
+            </div>
+            <img class="conteudo-principal-imagem" src="imagens/logo.svg" alt="Logo do Samples.project">
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Alguns exemplos de samples utilizados em músicas</h3>
+            <p class="conteudo-secundario-paragrafo">Música original: All I need</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://en.wikipedia.org/wiki/Lee_Fields" target="_blank">Lee Fields</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Antidote</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Travis_Scott" target="_blank">Travis Scott</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://en.wikipedia.org/wiki/WondaGurl" target="_blank">Wondagurl</a></strong> e <strong><a href="https://everipedia.org/wiki/lang_en/eestbound" target="_blank">Eestbound</a></strong></p>
+            <audio src="audios/sample_1.mp3" controls autoplay ></audio>
+            <br>
+            <p class="conteudo-secundario-paragrafo">Música original: More Spell On You</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/One_More_Time_(can%C3%A7%C3%A3o_de_Daft_Punk)" target="_blank">Eddie Johns</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: One More Time</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Daft_Punk" target="_blank">Daft Punk</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://pt.wikipedia.org/wiki/Daft_Punk" target="_blank">Daft Punk</a></strong></p>
+            <audio src="audios/sample_3.mp3" controls autoplay ></audio>
+            <br>
+            <p class="conteudo-secundario-paragrafo">Música original: Inside the Crashed Space Pirate Frigate</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Kenji_Yamamoto_(desambigua%C3%A7%C3%A3o)" target="_blank">Kenji Yamamoto</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Love Scars</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Trippie_Redd" target="_blank">Trippie Redd</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://everipedia.org/wiki/lang_en/elliott-trent" target="_blank">Elliott Trent</a></strong></p>
+            <audio src="audios/sample_2.mp3" controls autoplay ></audio>
+            <h3 class="conteudo-secundario-titulo"><a href="pag004.html">O que é o projeto Samples?</a></h3>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <a class="rodape-item" href="pag001.html" rel="next"><i>Para verificar a validação das páginas, clique aqui</i></a>
+    </footer>
 </body>
 </html>
